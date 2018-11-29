@@ -73,8 +73,7 @@
 
 <script>
 import { db } from '../../main'
-import GoogleMapsLoader from 'google-maps'
-import lodash from 'lodash'
+// import GoogleMapsLoader from 'google-maps'
 import ProductItem from '@/components/place/ProductItem.vue'
 
 export default {
@@ -101,13 +100,8 @@ export default {
   },
   methods : {
       getData : function(){
-        var a = this.sellers.filter(function(res){
-            return res
-        })
+      
 
-        console.log(this.sellers.filter(function(res){
-            return res.slug == 'toko-jaret'
-        }))
       }
   },
   mounted: function () {
