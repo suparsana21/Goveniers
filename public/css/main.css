@@ -1,0 +1,77 @@
+.logo {
+    font-family: 'Courgette';
+}
+.ml-auto .dropdown-menu {
+    left: auto !important;
+    right: 0px;
+}
+.responsive-img {
+    width : 100%;
+}
+.image-cover {
+    position: absolute;
+    top : 0;
+    right : 0;
+    left : 0;
+    bottom : 0;
+    background: rgba(0,0,0,.5);
+}
+.hero-container {
+    position: relative;
+}
+.nav-link {
+    color : #fefefe !important;
+    padding-left : 16px !important;
+    padding-right : 16px !important;
+}
+nav {
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,.1)
+}
+.hero-text {
+    color : #FFF;
+    padding : 20px;
+    position: absolute;
+    bottom: 60px;
+}
+.hero-text h1 {
+    font-size : 2em;
+    font-family : 'Courgette'
+}
+.padding {
+    padding : 20px;
+}
+.full-width {
+    width : 100% !important;
+}
+.parallax-content {
+    padding: 30px;
+    background : linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url('https://img.jakpost.net/c/2017/04/10/2017_04_10_24892_1491799434._large.jpg');
+    background-size : cover;
+    background-position: center bottom;
+    color: #fff !important;
+    width: 100%;
+    
+}
+.parallax-content .block-content {
+    margin: 0;
+}
+.block-content p,.block-content h2 {
+    vertical-align: middle;
+    
+}
+.footer-link a {
+    color :#fff;
+    text-decoration: none;
+}
+.footer-link {
+    padding-left: 5px;
+    list-style: none;
+    font-size: 14px;
+    line-height: 2.5
+}
+.sm-text {
+    font-size: 14px !important;
+}
+.content-list td,.content-list th {
+    padding : 10px
+}
